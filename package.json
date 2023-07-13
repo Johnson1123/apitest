@@ -1,0 +1,16 @@
+{
+  "name": "render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sever.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sever.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
