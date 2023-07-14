@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Welcome to root URL of Server");
+  res.send({ name: "onifade Johnson", age: 23, weight: 60 });
 });
 app.listen(PORT, (error) => {
   if (!error)
